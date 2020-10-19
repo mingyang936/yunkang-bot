@@ -1,11 +1,11 @@
 print()
 while True:
-  description = input("Could you describe how you feel in a sentence?")
+  description = input("tell me something sad about yourself so i can laugh at you")
 
   list_of_words = description.split()
 
-  feelings_list = []
-  encouragement_list = []
+  feelings_list = [sad]
+  encouragement_list = [dumb]
   counter = 0
   
   for each_word in list_of_words:
